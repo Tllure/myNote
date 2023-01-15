@@ -1,0 +1,7 @@
+{
+  "name": "newNote",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

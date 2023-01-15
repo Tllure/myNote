@@ -1,0 +1,66 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/edit/edit",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/new/new",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"app-plus": {
+			"titleNView": false
+		},
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"selectedColor": "#0b58f4",
+		"backgroundColor": "#f3f4f6",
+		"borderStyle": "white",
+		"list": [
+			{
+				"text": "笔记",
+				"iconPath": "static/笔记_hover (1).png",
+				"selectedIconPath": "static/笔记_hover.png",
+				"pagePath": "pages/index/index"
+			},
+			{
+				"text": "我",
+				"iconPath": "static/我的-我的 (1).png",
+				"selectedIconPath": "static/我的-我的.png",
+				"pagePath": "pages/mine/mine"
+			}
+		]
+	}
+}

@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/mine/mine",
+    "pages/edit/edit",
+    "pages/new/new"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "selectedColor": "#0b58f4",
+    "backgroundColor": "#f3f4f6",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "笔记",
+        "iconPath": "static/笔记_hover (1).png",
+        "selectedIconPath": "static/笔记_hover.png",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "我",
+        "iconPath": "static/我的-我的 (1).png",
+        "selectedIconPath": "static/我的-我的.png",
+        "pagePath": "pages/mine/mine"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

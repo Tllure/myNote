@@ -1,0 +1,102 @@
+
+.container {
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background-color: #f3f4f6;
+}
+.bg {
+		width: 100%;
+		position: relative;
+}
+.bg>image {
+		width: 100%;
+}
+.profile {
+		display: flex;
+		align-items: center;
+		position: absolute;
+		top: 100px;
+		left: 15px;
+}
+.profile>image {
+		width: 60px;
+		height: 60px;
+		border-radius: 50%;
+}
+.profile>span {
+		font-size: 20px;
+		color: #fff;
+		margin-left: 10px;
+}
+.box {
+		width: 95%;
+		height: 100px;
+		border-radius: 10px;
+		position: absolute;
+		top: 170px;
+		box-shadow: 0 0 10rpx 10rpx rgba(0, 0, 0, .1);
+		background-color: #fff;
+}
+.box span {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		font-size: 15px;
+		font-weight: 700;
+}
+.box p {
+		position: absolute;
+		top: 50px;
+		left: 10px;
+		font-size: 20px;
+		font-weight: 700;
+}
+.box text {
+		position: absolute;
+		font-size: 10px;
+		color: #666;
+		top: 60px;
+		right: 10px;
+}
+.content {
+		width: 90%;
+		height: 300px;
+		padding: 10px;
+		border-radius: 10px;
+		position: absolute;
+		top: 300px;
+		box-shadow: 0 0 10rpx 10rpx rgba(0, 0, 0, .1);
+		background-color: #fff;
+}
+.list {
+		padding: 5px;
+}
+.progress-bar {
+		width: 95%;
+		height: 5px;
+		overflow: hidden;
+		box-sizing: border-box;
+		border-radius: 24px;
+		background-color: #eee;
+		position: absolute;
+		left: 10px;
+		bottom: 15px;
+}
+.progress-bg {
+		width: 30%;
+		height: 100%;
+		overflow: hidden;
+		box-sizing: border-box;
+		background-image: linear-gradient(135deg, #00BFFF 25%, #FA8072 0, #FA8072 50%, #00BFFF 0, #00BFFF 75%, #FA8072 0);
+		border-radius: 24px;
+		animation: panoramic 20s linear infinite;
+		background-size: 32px 100%;
+}
+@keyframes panoramic {
+to {
+			background-position: 200% 0;
+}
+}
